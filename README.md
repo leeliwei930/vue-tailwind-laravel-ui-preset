@@ -10,12 +10,12 @@ What's inside this presets?
     - ESLint Import Resolver Alias
     - ESLint Airbnb config
 
-###Available Presets
+### Available Presets
 
-####`vue-tailwind-preset`
+#### `vue-tailwind-preset`
 This preset exclude any eslint configuration
 
-####`vue-tailwind-eslint-preset`
+#### `vue-tailwind-eslint-preset`
 This preset contains eslint configuration with Vue recommended code style rule enforced.
 
 #### `vue-tailwind-airbnb-eslint-preset`
