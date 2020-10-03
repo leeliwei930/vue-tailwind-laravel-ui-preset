@@ -1,0 +1,23 @@
+{
+    "name": "techrino/vue-tailwind-preset",
+    "description": "A Vue Tailwind Laravel UI Preset inspired by VueCLI",
+    "authors": [
+        {
+            "name": "Lee Li Wei",
+            "email": "leeliwei930@gmail.com"
+        }
+    ],
+    "require": {
+        "laravel/ui" : "^v1.0.0"
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Techrino\\VueTailwindPreset\\VueTailwindPresetServiceProvider"
+            ],
+            "aliases": {
+                "Debugbar": "Barryvdh\\Debugbar\\Facade"
+            }
+        }
+    }
+}

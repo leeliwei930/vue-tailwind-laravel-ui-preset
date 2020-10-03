@@ -1,0 +1,36 @@
+Arguments: 
+  /usr/local/bin/node /usr/local/bin/yarn init
+
+PATH: 
+  /Users/leeliwei/.pyenv/shims:/Users/leeliwei/go/bin:/usr/local/opt/node@12/bin:/Users/leeliwei/test/:/usr/local/opt/php@7.3/sbin:/usr/local/opt/php@7.3/bin:/Applications/MongoDB:/usr/local/opt/mysql@5.7/bin:/Users/leeliwei/Library/Android/sdk/tools/bin:/Users/leeliwei/Library/Android/sdk/platform-tools:/Users/leeliwei/flutter/bin:/Users/leeliwei/bin:/usr/local/bin:/Users/leeliwei/.pyenv/shims:/Users/leeliwei/go/bin:/usr/local/opt/node@12/bin:/Users/leeliwei/test/:/usr/local/opt/php@7.3/sbin:/usr/local/opt/php@7.3/bin:/Applications/MongoDB:/usr/local/opt/mysql@5.7/bin:/Users/leeliwei/Library/Android/sdk/tools/bin:/Users/leeliwei/Library/Android/sdk/platform-tools:/Users/leeliwei/flutter/bin:/Users/leeliwei/bin:/usr/local/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/go/bin:/Library/Apple/usr/bin:/Applications/Wireshark.app/Contents/MacOS:/Users/leeliwei/Code/Experiment/Laravel/issue-tracker/node_modules/.bin:/Users/leeliwei/.rvm/bin:/Users/leeliwei/.composer/vendor/bin:/Users/leeliwei/node_modules:/Users/leeliwei/.local/bin:/Users/leeliwei/.local/lib/aws/bin:/usr/local/opt/fzf/bin:/Users/leeliwei/.rvm/bin:/Users/leeliwei/.composer/vendor/bin:/Users/leeliwei/node_modules:/Users/leeliwei/.local/bin:/Users/leeliwei/.local/lib/aws/bin
+
+Yarn version: 
+  1.22.10
+
+Node version: 
+  12.18.4
+
+Platform: 
+  darwin x64
+
+Trace: 
+  Error: canceled
+      at Interface.<anonymous> (/usr/local/lib/node_modules/yarn/lib/cli.js:136216:13)
+      at Interface.emit (events.js:315:20)
+      at Interface._ttyWrite (readline.js:868:16)
+      at ReadStream.onkeypress (readline.js:205:10)
+      at ReadStream.emit (events.js:315:20)
+      at emitKeys (internal/readline/utils.js:335:14)
+      at emitKeys.next (<anonymous>)
+      at ReadStream.onData (readline.js:1137:36)
+      at ReadStream.emit (events.js:315:20)
+      at addChunk (_stream_readable.js:295:12)
+
+npm manifest: 
+  No manifest
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile

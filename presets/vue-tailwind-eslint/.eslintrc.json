@@ -1,0 +1,74 @@
+{
+
+    "env": {
+        "browser": true,
+        "commonjs": true,
+        "es6": true
+    },
+    "extends": [
+        "eslint:recommended",
+        "plugin:vue/essential"
+    ],
+    "globals": {
+        "Atomics": "readonly",
+        "SharedArrayBuffer": "readonly"
+    },
+
+    "parserOptions": {
+        "parser": "babel-eslint",
+        "allowImportExportEverywhere": true,
+        "ecmaVersion": 2019,
+        "sourceType": "module"
+    },
+    "plugins": [
+        "vue"
+    ],
+    "rules": {
+
+        //        "indent": ["error", 4],
+        //        "vue/order-in-components": ["error", {
+        //            "order": [
+        //                "el",
+        //                "name",
+        //                "parent",
+        //                "functional",
+        //                ["delimiters", "comments"],
+        //                ["components", "directives", "filters"],
+        //                "extends",
+        //                "mixins",
+        //                "inheritAttrs",
+        //                "model",
+        //                ["props", "propsData"],
+        //                "fetch",
+        //                "asyncData",
+        //                "data",
+        //                "watch",
+        //                "LIFECYCLE_HOOKS",
+        //                "methods",
+        //                "beforeCreated",
+        //                "created",
+        //                "beforeMount",
+        //                "mounted",
+        //                "beforeUpdate",
+        //                "updated",
+        //                "beforeDestroy",
+        //                "destroyed",
+        //                "computed",
+        //                "head",
+        //                ["template", "render"],
+        //                "renderError"
+        //            ]
+        //        }]
+    },
+    "settings": {
+        "import/resolver": {
+            "alias": {
+                "map": [
+                    ["@", "./resources/presets/vue-tailwind-preset/vue"],
+                    ["@css", "./resources/presets/vue-tailwind-preset/css"]
+                ],
+                "extensions": [".js", ".vue"]
+            }
+        }
+    }
+}
