@@ -16,7 +16,7 @@
     a(
       target="_blank"
       class="text-xl text-teal-600 hover:text-teal-700 font-semibold my-3"
-      href="https://github.com/leeliwei930/laravel-ui-preset"
+      href="https://github.com/leeliwei930/vue-tailwind-laravel-ui-preset"
     )
       | View Docs at GitHub
     p(class="text-gray-800 font-bold my-20").
