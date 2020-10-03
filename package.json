@@ -1,5 +1,5 @@
 {
-  "name": "vue-tailwind-preset",
+  "name": "vue-tailwind-laravel-ui-preset",
   "version": "1.0.0",
   "description": "A Vue + TailwindCSS Laravel UI Preset inspired b VueCLI",
   "main": "index.js",

@@ -1,5 +1,5 @@
 {
-    "name": "techrino/vue-tailwind-preset",
+    "name": "techrino/vue-tailwind-laravel-ui-preset",
     "description": "A Vue Tailwind Laravel UI Preset inspired by VueCLI",
     "version": "1.0.0",
     "authors": [
@@ -10,6 +10,11 @@
     ],
     "require": {
         "laravel/ui" : "^v1.0.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Techrino\\VueTailwindPreset\\": "src/"
+        }
     },
     "extra": {
         "laravel": {
