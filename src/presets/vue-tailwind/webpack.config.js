@@ -16,7 +16,7 @@ module.exports =
     ]
 },
   output: {
-    chunkFilename: "public/js/chunks/[name].js",
+    chunkFilename: "js/chunks/[name].js",
 
   },
   module: {
@@ -41,13 +41,6 @@ module.exports =
           'postcss-loader'
         ]
       },
-
-      {
-        enforce: 'pre',
-        test: /\.(js|vue)$/,
-        loader: 'eslint-loader',
-        exclude: /node_modules/,
-      }
     ]
   }
 };

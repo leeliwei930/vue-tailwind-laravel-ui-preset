@@ -1,6 +1,6 @@
 <?php
 
-namespace Techrino\VueTailwindPreset;
+namespace Techrino\VueTailwindLaravelUIPreset;
 use Illuminate\Support\Facades\Artisan;
 use Laravel\Ui\UiCommand;
 
@@ -75,6 +75,9 @@ class  VueTailwindPresetServiceProvider  extends \Illuminate\Support\ServiceProv
     public function registerVueTailwindPreset(){
 
         $scaffold = [
+            __DIR__ . '/tests' => base_path('cypress/integration/vue-tailwind-laravel-ui-preset'),
+            __DIR__ . '/public' => public_path('presets/vue-tailwind'),
+
             __DIR__ . '/presets/vue-tailwind/css' => resource_path('presets/vue-tailwind-preset/css'),
             __DIR__ . '/presets/vue-tailwind/views' => resource_path('views/presets/vue-tailwind-preset'),
             __DIR__ . '/presets/vue-tailwind/vue' => resource_path('presets/vue-tailwind-preset/vue'),
@@ -83,6 +86,7 @@ class  VueTailwindPresetServiceProvider  extends \Illuminate\Support\ServiceProv
             __DIR__ . '/presets/vue-tailwind/webpack.config.js' => base_path('webpack.config.js'),
             __DIR__ . '/presets/vue-tailwind/tailwind.config.js' => base_path('tailwind.config.js'),
             __DIR__ . '/presets/vue-tailwind/.babelrc' => base_path('.babelrc'),
+            __DIR__ . '/presets/vue-tailwind/package.json' => base_path('package.json'),
             __DIR__ . '/presets/vue-tailwind/package.json' => base_path('package.json'),
         ];
 
@@ -97,6 +101,9 @@ class  VueTailwindPresetServiceProvider  extends \Illuminate\Support\ServiceProv
 
 
         $scaffold = [
+            __DIR__ . '/tests' => base_path('cypress/integration/vue-tailwind-laravel-ui-preset'),
+            __DIR__ . '/public' => public_path('presets/vue-tailwind'),
+
             __DIR__ . '/presets/vue-tailwind/css' => resource_path('presets/vue-tailwind-preset/css'),
             __DIR__ . '/presets/vue-tailwind/views' => resource_path('views/presets/vue-tailwind-preset'),
             __DIR__ . '/presets/vue-tailwind/vue' => resource_path('presets/vue-tailwind-preset/vue'),
@@ -116,6 +123,9 @@ class  VueTailwindPresetServiceProvider  extends \Illuminate\Support\ServiceProv
 
     public function registerVueTailwindESLintAirbnb(){
         $scaffold = [
+            __DIR__ . '/tests' => base_path('cypress/integration/vue-tailwind-laravel-ui-preset'),
+            __DIR__ . '/public' => public_path('presets/vue-tailwind'),
+
             __DIR__ . '/presets/vue-tailwind/css' => resource_path('presets/vue-tailwind-preset/css'),
             __DIR__ . '/presets/vue-tailwind/views' => resource_path('views/presets/vue-tailwind-preset'),
             __DIR__ . '/presets/vue-tailwind/vue' => resource_path('presets/vue-tailwind-preset/vue'),

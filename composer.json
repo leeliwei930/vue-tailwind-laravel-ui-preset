@@ -9,21 +9,20 @@
         }
     ],
     "require": {
-        "laravel/ui" : "^v1.0.0"
+        "laravel/ui" : ">= v1.0.0"
     },
     "autoload": {
         "psr-4": {
-            "Techrino\\VueTailwindPreset\\": "src/"
+            "Techrino\\VueTailwindLaravelUIPreset\\": "src/"
         }
     },
     "extra": {
         "laravel": {
             "providers": [
-                "Techrino\\VueTailwindPreset\\VueTailwindPresetServiceProvider"
-            ],
-            "aliases": {
-                "Debugbar": "Barryvdh\\Debugbar\\Facade"
-            }
+                "Techrino\\VueTailwindLaravelUIPreset\\VueTailwindPresetServiceProvider"
+            ]
         }
-    }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
 }
