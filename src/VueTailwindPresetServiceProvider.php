@@ -36,7 +36,8 @@ class  VueTailwindPresetServiceProvider  extends \Illuminate\Support\ServiceProv
             $command->info("Perform scaffolding on ". $input['stack']);
 
             $exitCode = Artisan::call("vendor:publish", [
-                '--tag' => $input['stack']
+                '--tag' => $input['stack'],
+                '--force' => true
             ]);
 
             if($exitCode == 0){

@@ -18,7 +18,7 @@ describe('Vue Tailwind Preset', () => {
 
   it('Scaffold Vue and TailwindCSS base preset', () => {
 
-    cy.exec("php artisan vendor:publish --tag=vue-tailwind-preset")
+    cy.exec("php artisan vendor:publish --tag=vue-tailwind-preset --force")
       .its('code').should('eq', 0)
 
     cy.wait(10000)
@@ -50,7 +50,7 @@ describe('Vue Tailwind Preset', () => {
     // Assert See Vue Tailwind Laravel UI Preset
 
 
-    cy.exec("php artisan vendor:publish --tag=vue-tailwind-eslint-preset")
+    cy.exec("php artisan vendor:publish --tag=vue-tailwind-eslint-preset --force")
       .its('code').should('eq', 0)
     cy.wait(10000)
 
@@ -70,7 +70,7 @@ describe('Vue Tailwind Preset', () => {
   it('Scaffold Vue and TailwindCSS, ESLint + Airbnb preset', () => {
     // run php artisan vendor:publish --tag=vue-tailwind-eslint-airbnb-preset
 
-    cy.exec("php artisan vendor:publish --tag=vue-tailwind-eslint-airbnb-preset")
+    cy.exec("php artisan vendor:publish --tag=vue-tailwind-eslint-airbnb-preset --force")
       .its('code').should('eq', 0)
 
     cy.wait(10000)
