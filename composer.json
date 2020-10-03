@@ -2,6 +2,7 @@
     "name": "techrino/vue-tailwind-laravel-ui-preset",
     "description": "A Vue Tailwind Laravel UI Preset inspired by VueCLI",
     "version": "1.0.0",
+    "license": ["MIT"],
     "authors": [
         {
             "name": "Lee Li Wei",
